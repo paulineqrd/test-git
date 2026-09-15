@@ -1,7 +1,13 @@
-.navbar{
+.navbar>ul{
     display: flex;
-    justify-content: space-between;
+    gap: 3rem;
     align-items: center;
+}
+
+.navbar a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
 }
 
 .navbar li:hover{
